@@ -6,7 +6,7 @@ An award-winning data analytics project examining how major
 music events affect hotel demand, pricing, and revenue across
 five major U.S. markets.
 
-[Optional: put one of your strongest visualizations here]
+<img width="2819" height="1478" alt="image" src="https://github.com/user-attachments/assets/3290305c-aec9-4946-aeee-3aafba40e088" />
 
 
 ## 1. Business Problem
