@@ -21,13 +21,8 @@ into recommendations for hospitality and event stakeholders.
 
 ## 2. Data
 
-The dataset contains daily hotel performance data across:
-
-- Atlanta
-- Chicago
-- New York
-- Las Vegas
-- Los Angeles
+The dataset contains daily hotel performance data across:  
+Atlanta,Chicago,New York,Las Vegas,Los Angeles
 
 ### Key Metrics
 - Occupancy (OCC)
@@ -37,99 +32,113 @@ The dataset contains daily hotel performance data across:
 - Room Supply
 - Room Revenue
 
-
 ## 3. Analytical Approach
 
-### Event Window Analysis
-Compare hotel performance:
-- 7 days before
-- During the event
-- 7 days after
-
-### Market Analysis
-Compare event effects across cities.
-
-### Hotel Segment Analysis
-Compare performance across hotel classes.
-
-### Event Type Analysis
-Compare single-artist concerts with multi-day festivals.
-
-### Seasonality Analysis
-Evaluate whether concert effects vary by season.
-
+- **Event Window:** 7 days before, during, and 7 days after each event
+- **Market:** Compare impacts across cities
+- **Hotel Class:** Compare impacts across hotel classes
+- **Event Type:** Single-artist concerts vs. multi-day festivals
+- **Seasonality:** Compare impacts across seasons
 
 ## 4. Key Findings
 
-### Finding 1 — Concerts Generate Sharp Hotel Performance Increases
-[visualization]
+### 1. Concerts Create Sharp but Time-Sensitive Hotel Performance Uplifts
 
-Explain the finding in 2–3 sentences.
+Hotel performance generally peaks around the event date, with increases
+visible across occupancy, ADR, RevPAR, and demand.
 
-### Finding 2 — Impact Varies by Artist and City
-[visualization]
+Pricing effects can begin before the event itself, suggesting that
+hotels respond to anticipated concert demand before guests arrive.
 
-Explain the finding.
+The magnitude of the effect also varies by market, with tourism-heavy
+destinations such as Las Vegas, Los Angeles, and New York displaying
+more pronounced shifts.
 
-### Finding 3 — Luxury Hotels Capture Strong Pricing Benefits
-[visualization]
+### 2. Economic Impact Depends on Both Artist and Market
 
-Explain the finding.
+Concert impact is not uniform across performers or locations.
 
-### Finding 4 — Event Type Changes the Demand Pattern
-[visualization]
+Taylor Swift demonstrated strong and relatively consistent hotel
+performance effects, while other artists showed greater variation
+between markets.
 
-Explain the finding.
+This suggests that the economic value of an event depends on the
+interaction between artist demand and the characteristics of the
+host market.
 
+### 3. Luxury Hotels Capture the Strongest Pricing Benefits
 
-## 5. Statistical Analysis
+Luxury hotel segments recorded the highest average ADR and RevPAR
+across the analyzed markets.
 
-Explain the statistical methods used.
+However, occupancy rates were relatively similar across hotel classes,
+suggesting that major concerts attract travelers across different
+price segments while premium properties have greater ability to
+capture value through pricing.
 
-Example:
+### 4. Event Format Changes the Shape of Hotel Demand
+
+Single-artist concerts and multi-day festivals produce different
+hotel-performance patterns.
+
+**Single-artist concerts** tend to produce sharp, concentrated spikes
+around the event date, followed by relatively rapid normalization.
+
+**Multi-day festivals** can exhibit a broader pattern of demand because
+visitors participate across multiple event days.
+
+Understanding this difference can help hotels adjust pricing,
+inventory, and promotional strategies around different event formats.
+
+### 5. Seasonality Influences Incremental Concert Impact
+
+The analysis indicates that concert-related demand effects vary
+depending on the season.
+
+ANOVA was used to test differences in demand, followed by Tukey HSD
+comparisons between seasonal/event groups.
+
+The results suggest that concerts may generate greater incremental
+value during some off-peak periods, while summer already has relatively
+strong baseline travel demand.
+
+## 5. Business Recommendations
+
+### Hoteliers
+- Develop concert-themed hotel and F&B packages
+- Coordinate pricing and promotions around expected event demand
+- Offer transportation and event-related guest experiences
+- Use event calendars to anticipate demand before concert dates
+
+### Event Planners
+- Use projected hospitality impact to support event bids and sponsorships
+- Partner with hotels on room blocks and co-marketing opportunities
+
+### Policymakers
+- Encourage major events during lower-demand periods
+- Improve transportation infrastructure around major venues
+- Incorporate hotel demand data into tourism and event strategy
+
+## 6. Tools & Methods
+
+- Data Cleaning & Transformation
+- Exploratory Data Analysis
+- Data Visualization
+- Comparative Analysis
 - ANOVA
 - Tukey HSD
-- Year-over-year comparisons
+- Business Analytics & Data Storytelling
 
+## 7. Team
 
-## 6. Business Recommendations
+- Tianqi Niu,Angelina Yang,May Lin,Yumi Tseng,Jingyi Guo
 
-### For Hoteliers
-...
+## 8. Award
 
-### For Event Planners
-...
+🏆 **[Best Presentation Award Certificate](Certificate/Certificate.pdf)**
 
-### For Policymakers
-...
+## 9. Presentation
 
-
-## 7. Tools
-
-- Python / R
-- Excel
-- Tableau / Power BI
-- Statistical analysis
-- Data visualization
-
-
-## 8. Team
-
-- Angelina Yang
-- May Lin
-- Yumi Tseng
-- Tianqi Niu
-- Jingyi Guo
-
-
-## 9. Award
-
-🏆 **Best Presentation Award**
-
-2025 T.H.E. (Tourism, Hospitality, and Events)
-Analytics Case Competition
-
-
-## 10. Presentation
-
-[View Final Presentation](...)
+The complete competition presentation, including visualizations,
+statistical analysis, findings, and recommendations, is available
+in this [repository](presentation/final.report.pdf).
