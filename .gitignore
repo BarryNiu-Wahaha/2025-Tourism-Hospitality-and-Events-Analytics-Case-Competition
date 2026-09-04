@@ -1,0 +1,7 @@
+data/raw/
+*.xlsx
+*.xls
+*.csv
+results/figures/
+.Rhistory
+.RData
