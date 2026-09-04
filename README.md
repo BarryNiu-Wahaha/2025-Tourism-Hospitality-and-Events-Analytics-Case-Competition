@@ -135,10 +135,10 @@ strong baseline travel demand.
 
 ## 8. Award
 
-🏆 **[Best Presentation Award Certificate](Certificate/Certificate.pdf)**
+🏆 **[Best Presentation Award Certificate](Certificate.pdf)**
 
 ## 9. Presentation
 
 The complete competition presentation, including visualizations,
 statistical analysis, findings, and recommendations, is available
-in this [repository](presentation/final.report.pdf).
+in this [repository](final.report.pdf).
