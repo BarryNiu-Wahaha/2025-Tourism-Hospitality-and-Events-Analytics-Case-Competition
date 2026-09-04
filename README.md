@@ -2,9 +2,7 @@
 
 🏆 **Best Presentation Award**
 
-An award-winning data analytics project examining how major
-music events affect hotel demand, pricing, and revenue across
-five major U.S. markets.
+An award-winning data analytics project examining hotel demand, pricing, and revenue patterns around major music events across five major U.S. markets.
 
 <img width="2819" height="1478" alt="image" src="https://github.com/user-attachments/assets/3290305c-aec9-4946-aeee-3aafba40e088" />
 
@@ -14,9 +12,8 @@ five major U.S. markets.
 ### Research Question
 > What is the economic impact of hosting a pop-star music concert?
 
-The project evaluates how major concerts and music festivals
-affect hotel market performance and translates the findings
-into recommendations for hospitality and event stakeholders.
+The project examines hotel market performance patterns around major concerts and music 
+festivals and translates the findings into recommendations for hospitality and event stakeholders.
 
 
 ## 2. Data
@@ -34,11 +31,10 @@ Atlanta,Chicago,New York,Las Vegas,Los Angeles
 
 ## 3. Analytical Approach
 
-- **Event Window:** 7 days before, during, and 7 days after each event
-- **Market:** Compare impacts across cities
-- **Hotel Class:** Compare impacts across hotel classes
-- **Event Type:** Single-artist concerts vs. multi-day festivals
-- **Seasonality:** Compare impacts across seasons
+-**Market**: Compare hotel performance patterns across cities
+-**Hotel Class**: Compare performance across hotel classes
+-**Event Type**: Compare single-artist concerts and multi-day festivals
+-**Seasonality**: Compare hotel performance patterns across seasons
 
 ## 4. Key Findings
 
@@ -54,13 +50,12 @@ The magnitude of the effect also varies by market, with tourism-heavy
 destinations such as Las Vegas, Los Angeles, and New York displaying
 more pronounced shifts.
 
-### 2. Economic Impact Depends on Both Artist and Market
+### 2. Hotel Performance Patterns Vary by Artist and Market
 
-Concert impact is not uniform across performers or locations.
+Hotel performance patterns around concert dates vary across performers and locations.
 
-Taylor Swift demonstrated strong and relatively consistent hotel
-performance effects, while other artists showed greater variation
-between markets.
+aylor Swift concert periods were associated with strong and relatively consistent hotel performance 
+increases across the analyzed markets.
 
 This suggests that the economic value of an event depends on the
 interaction between artist demand and the characteristics of the
@@ -76,7 +71,7 @@ suggesting that major concerts attract travelers across different
 price segments while premium properties have greater ability to
 capture value through pricing.
 
-### 4. Event Format Changes the Shape of Hotel Demand
+### 4. Hotel Demand Patterns Differ by Event Format
 
 Single-artist concerts and multi-day festivals produce different
 hotel-performance patterns.
@@ -90,7 +85,7 @@ visitors participate across multiple event days.
 Understanding this difference can help hotels adjust pricing,
 inventory, and promotional strategies around different event formats.
 
-### 5. Seasonality Influences Incremental Concert Impact
+### 5. Concert-Period Hotel Performance Varies by Season
 
 The analysis indicates that concert-related demand effects vary
 depending on the season.
@@ -111,7 +106,7 @@ strong baseline travel demand.
 - Use event calendars to anticipate demand before concert dates
 
 ### Event Planners
-- Use projected hospitality impact to support event bids and sponsorships
+- Use historical hotel performance patterns around major events to support event bids and sponsorship discussions.
 - Partner with hotels on room blocks and co-marketing opportunities
 
 ### Policymakers
